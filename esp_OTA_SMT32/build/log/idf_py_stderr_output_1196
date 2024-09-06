@@ -1,0 +1,67 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c28c: __memcpy_aux in ROM
+[0m
+[0;33m0x400d524c: uart_rx_intr_handler_default at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:906
+[0m
+[0;33m0x4000c28c: __memcpy_aux in ROM
+0x4000c296: __memcpy_aux in ROM
+[0m
+[0;33m0x4000c289: __memcpy_aux in ROM
+0x400d7b7b: ota_send_code at D:/esp/esp_OTA_SMT32/component/hostBootloader/hostBootloader_command.c:49
+0x400d7b10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:37
+0x400e5d48: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c28c: __memcpy_aux in ROM
+[0m
+[0;33m0x400d524c: uart_rx_intr_handler_default at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:906
+[0m
+[0;33m0x4000c28c: __memcpy_aux in ROM
+0x4000c296: __memcpy_aux in ROM
+[0m
+[0;33m0x4000c289: __memcpy_aux in ROM
+0x400d7b7b: ota_send_code at D:/esp/esp_OTA_SMT32/component/hostBootloader/hostBootloader_command.c:49
+0x400d7b10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:37
+0x400e5d48: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c28c: __memcpy_aux in ROM
+[0m
+[0;33m0x400d524c: uart_rx_intr_handler_default at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:906
+[0m
+[0;33m0x4000c28c: __memcpy_aux in ROM
+0x4000c296: __memcpy_aux in ROM
+[0m
+[0;33m0x4000c289: __memcpy_aux in ROM
+0x400d7b7b: ota_send_code at D:/esp/esp_OTA_SMT32/component/hostBootloader/hostBootloader_command.c:49
+0x400d7b10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:37
+0x400e5d48: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c28c: __memcpy_aux in ROM
+[0m
+[0;33m0x400d524c: uart_rx_intr_handler_default at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:906
+[0m
+[0;33m0x4000c28c: __memcpy_aux in ROM
+0x4000c296: __memcpy_aux in ROM
+[0m
+[0;33m0x4000c289: __memcpy_aux in ROM
+0x400d7b7b: ota_send_code at D:/esp/esp_OTA_SMT32/component/hostBootloader/hostBootloader_command.c:49
+0x400d7b10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:37
+0x400e5d48: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

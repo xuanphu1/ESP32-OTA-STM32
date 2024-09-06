@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "min.h": "c",
+        "bootloader_command.h": "c",
+        "esp_timer.h": "c",
+        "uart.h": "c",
+        "*.inc": "c",
+        "string.h": "c",
+        "hostbootloader_command.h": "c",
+        "uart_ll.h": "c",
+        "otahost_esp32.h": "c",
+        "Conver_data_to_OTA.C": "cpp",
+        "processing_data_of_file_hex.h": "c"
+    }
+}

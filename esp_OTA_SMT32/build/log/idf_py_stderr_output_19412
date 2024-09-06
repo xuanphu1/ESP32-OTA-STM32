@@ -1,0 +1,103 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d798d: convert_string_to_byte at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:34
+[0m
+[0;33m0x400d5260: uart_rx_intr_handler_default at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:906
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d798a: convert_string_to_byte at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:29
+0x400d79dc: save_data_convert_file_hex at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:66
+0x400d78cf: otaStart at D:/esp/esp_OTA_SMT32/component/HostOTA_ESP32/OTAHost_esp32.c:146
+0x400d789a: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:50
+0x400e5b38: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086db9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d798d: convert_string_to_byte at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:34
+[0m
+[0;33m0x400d5260: uart_rx_intr_handler_default at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:906
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d798a: convert_string_to_byte at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:29
+0x400d79dc: save_data_convert_file_hex at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:66
+0x400d78cf: otaStart at D:/esp/esp_OTA_SMT32/component/HostOTA_ESP32/OTAHost_esp32.c:146
+0x400d789a: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:50
+0x400e5b38: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086db9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d798d: convert_string_to_byte at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:34
+[0m
+[0;33m0x400d5260: uart_rx_intr_handler_default at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:906
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d798a: convert_string_to_byte at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:29
+0x400d79dc: save_data_convert_file_hex at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:66
+0x400d78cf: otaStart at D:/esp/esp_OTA_SMT32/component/HostOTA_ESP32/OTAHost_esp32.c:146
+0x400d789a: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:50
+0x400e5b38: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086db9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d798d: convert_string_to_byte at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:34
+[0m
+[0;33m0x400d5260: uart_rx_intr_handler_default at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:906
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d798a: convert_string_to_byte at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:29
+0x400d79dc: save_data_convert_file_hex at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:66
+0x400d78cf: otaStart at D:/esp/esp_OTA_SMT32/component/HostOTA_ESP32/OTAHost_esp32.c:146
+0x400d789a: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:50
+0x400e5b38: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086db9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d798d: convert_string_to_byte at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:34
+[0m
+[0;33m0x400d5260: uart_rx_intr_handler_default at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:906
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d798a: convert_string_to_byte at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:29
+0x400d79dc: save_data_convert_file_hex at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:66
+0x400d78cf: otaStart at D:/esp/esp_OTA_SMT32/component/HostOTA_ESP32/OTAHost_esp32.c:146
+0x400d789a: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:50
+0x400e5b38: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086db9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d798d: convert_string_to_byte at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:34
+[0m
+[0;33m0x400d5260: uart_rx_intr_handler_default at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:906
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d798a: convert_string_to_byte at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:29
+0x400d79dc: save_data_convert_file_hex at D:/esp/esp_OTA_SMT32/component/processing_HEX/processing_data_of_file_hex.c:66
+0x400d78cf: otaStart at D:/esp/esp_OTA_SMT32/component/HostOTA_ESP32/OTAHost_esp32.c:146
+0x400d789a: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:50
+0x400e5b38: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086db9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

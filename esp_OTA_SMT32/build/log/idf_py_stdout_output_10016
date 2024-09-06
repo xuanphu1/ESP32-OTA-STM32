@@ -1,0 +1,35 @@
+[1/11] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\esp\esp_OTA_SMT32\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/esp/esp_OTA_SMT32/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/9] Building C object esp-idf/hostBootloader/CMakeFiles/__idf_hostBootloader.dir/hostBootloader.c.obj
+D:/esp/esp_OTA_SMT32/component/hostBootloader/hostBootloader.c: In function 'host_bootLoader_handle':
+D:/esp/esp_OTA_SMT32/component/hostBootloader/hostBootloader.c:68:21: warning: passing argument 2 of 'min_poll' from incompatible pointer type [-Wincompatible-pointer-types]
+   68 |     min_poll(minctx,&data,1);
+      |                     ^~~~~
+      |                     |
+      |                     uint8_t (*)[1024] {aka unsigned char (*)[1024]}
+In file included from D:/esp/esp_OTA_SMT32/component/hostBootloader/hostBootloader.h:5,
+                 from D:/esp/esp_OTA_SMT32/component/hostBootloader/hostBootloader.c:1:
+D:/esp/esp_OTA_SMT32/component/Min/min.h:175:56: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'uint8_t (*)[1024]' {aka 'unsigned char (*)[1024]'}
+  175 | void min_poll(struct min_context *self, uint8_t const *buf, uint32_t buf_len);
+      |                                         ~~~~~~~~~~~~~~~^~~
+D:/esp/esp_OTA_SMT32/component/hostBootloader/hostBootloader.c:66:13: warning: unused variable 'len' [-Wunused-variable]
+   66 |     uint8_t len = 0 ;
+      |             ^~~
+[3/9] Linking C static library esp-idf\hostBootloader\libhostBootloader.a
+[4/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp_OTA_SMT32.c.obj
+D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c: In function 'app_main':
+D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:39:17: warning: unused variable 'data' [-Wunused-variable]
+   39 |         uint8_t data[] = {0x01,0x02,0x03};
+      |                 ^~~~
+[5/9] Linking C static library esp-idf\main\libmain.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable esp_OTA_SMT32.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.8.dev4
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/esp/esp_OTA_SMT32/build/esp_OTA_SMT32.bin
+[9/9] cmd.exe /C "cd /D D:\esp\esp_OTA_SMT32\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/esp/esp_OTA_SMT32/build/partition_table/partition-table.bin D:/esp/esp_OTA_SMT32/build/esp_OTA_SMT32.bin"
+esp_OTA_SMT32.bin binary size 0x30d40 bytes. Smallest app partition is 0x100000 bytes. 0xcf2c0 bytes (81%) free.

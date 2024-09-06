@@ -1,0 +1,24 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\esp\esp_OTA_SMT32\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/esp/esp_OTA_SMT32/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp_OTA_SMT32.c.obj
+In file included from D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:3:
+D:/esp/esp_OTA_SMT32/main/min.h: In function 'rx_byte':
+D:/esp/esp_OTA_SMT32/main/min.h:716:39: warning: comparison is always true due to limited range of data type [-Wtype-limits]
+  716 |             if (self->rx_frame_length <= MAX_PAYLOAD) {
+      |                                       ^~
+D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c: In function 'min_tx_byte':
+D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23:28: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   23 | uart_write_bytes(UART_NUM, (char*)byte, sizeof(byte));
+      |                            ^
+[3/7] Linking C static library esp-idf\main\libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable esp_OTA_SMT32.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.8.dev4
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/esp/esp_OTA_SMT32/build/esp_OTA_SMT32.bin
+[7/7] cmd.exe /C "cd /D D:\esp\esp_OTA_SMT32\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/esp/esp_OTA_SMT32/build/partition_table/partition-table.bin D:/esp/esp_OTA_SMT32/build/esp_OTA_SMT32.bin"
+esp_OTA_SMT32.bin binary size 0x30ce0 bytes. Smallest app partition is 0x100000 bytes. 0xcf320 bytes (81%) free.

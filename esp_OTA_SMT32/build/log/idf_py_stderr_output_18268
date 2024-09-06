@@ -1,0 +1,321 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+[0m
+[0;33m0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d252f: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400d252c: uart_ll_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal/uart_ll.h:324 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.3/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d522b: uart_enable_tx_write_fifo at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:899
+0x400d6188: uart_tx_all at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1352
+0x400d698a: uart_write_bytes at C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/src/uart.c:1383
+0x400d7b4c: min_tx_byte at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:23
+0x400d7bd9: on_wire_bytes at D:/esp/esp_OTA_SMT32/main/min.h:323
+0x400d7c9e: min_send_frame at D:/esp/esp_OTA_SMT32/main/min.h:866
+0x400d7d10: app_main at D:/esp/esp_OTA_SMT32/main/esp_OTA_SMT32.c:63
+0x400e5cd4: main_task at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/app_startup.c:208
+0x40086dd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\Espressif\\frameworks\\esp-idf-v5.3**",
+                "D:\\esp\\esp_OTA_SMT32\\component\\Min",
+                "C:/Espressif/frameworks/esp-idf-v5.3/components/esp_timer/include",
+                "C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/include",
+                "C:/Espressif/frameworks/esp-idf-v5.3/components/soc/esp32/include/soc",
+                "C:/Espressif/frameworks/esp-idf-v5.3/components/esp_driver_uart/include/driver",
+                "C:/Espressif/frameworks/esp-idf-v5.3/components/hal/esp32/include/hal",
+                "C:/Espressif/frameworks/esp-idf-v5.3/components/log/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
