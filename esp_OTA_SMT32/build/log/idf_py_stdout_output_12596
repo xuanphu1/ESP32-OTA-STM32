@@ -1,0 +1,120 @@
+j5
+[0;32mI (36)�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 20 2024 18:47:13[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0acdch ( 44252) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001ad04 vaddr=3ffb0000 size=05314h ( 21268) load[0m
+[0;32mI (128) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=17540h ( 95552) map[0m
+[0;32mI (161) esp_image: segment 3: paddr=00037568 vaddr=3ffb5314 size=02040h (  8256) load[0m
+[0;32mI (164) esp_image: segment 4: paddr=000395b0 vaddr=40080000 size=0da84h ( 55940) load[0m
+[0;32mI (197) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (197) boot: Disabling RNG early entropy source...[0m
+[0;32mI (209) cpu_start: Multicore app[0m
+[0;32mI (217) cpu_start: Pro cpu start user code[0m
+[0;32mI (217) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (217) app_init: Application information:[0m
+[0;32mI (220) app_init: Project name:     esp_OTA_SMT32[0m
+[0;32mI (226) app_init: App version:      1[0m
+[0;32mI (230) app_init: Compile time:     Aug 25 2024 07:28:29[0m
+[0;32mI (236) app_init: ELF file SHA256:  ee42e3100...[0m
+[0;32mI (241) app_init: ESP-IDF:          v5.3-dirty[0m
+[0;32mI (246) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (251) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (256) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (261) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (268) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (274) heap_init: At 3FFB8238 len 00027DC8 (159 KiB): DRAM[0m
+[0;32mI (280) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (287) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (293) heap_init: At 4008DA84 len 0001257C (73 KiB): IRAM[0m
+[0;32mI (301) spi_flash: detected chip: generic[0m
+[0;32mI (304) spi_flash: flash io: dio[0m
+[0;33mW (308) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (322) main_task: Started on CPU0[0m
+[0;32mI (332) main_task: Calling app_main()[0m
+02 00 00 04 08 00 F2 
+10 00 00 00 20 00 06 70 08 00 01 89 08 00 0A D7 08 00 0A 61 6C 
+10 00 10 00 08 00 0A D5 08 00 02 8F 08 00 0B 41 00 00 00 00 0C 
+10 00 20 00 00 00 00 00 00 00 00 00 00 00 00 00 08 00 0A DB E3 
+10 00 30 00 08 00 02 91 00 00 00 00 08 00 0A D9 08 00 0A DD 4B 
+10 00 40 00 08 00 01 A3 08 00 01 A3 08 00 01 A3 08 00 01 A3 00 
+10 00 50 00 08 00 01 A3 08 00 01 A3 08 00 01 A3 08 00 01 A3 F0 
+10 00 60 00 08 00 01 A3 08 00 01 A3 08 00 01 A3 08 00 01 A3 E0 
+length command of file hex: 8
+
+[0;32mI (372) ROW DATA FRAME: ROW 1
+[0m
+length line in row 1: 21
+HEADER Frame: 10 00 00 00 
+DATA Frame: 20 00 06 70 08 00 01 89 08 00 0A D7 08 00 0A 61 6C 
+[0;32mI (382) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (3392) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (8062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (11062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (14062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (17062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (20062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (23062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (26062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (29062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (32062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (35062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (38062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (41062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (44062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (47062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (50062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (53062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (56062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (59062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (62062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (65062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (68062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (71062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (74062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (77062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (80062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (83062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (86062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (89062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (92062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (95062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (98062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (101062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (104062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (107062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (110062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (113062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (116062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (119062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (122062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (125062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (128062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (131062) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (136012) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (139012) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (142012) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (145012) OTA_HOST: ESP32 send the command to START successfully: [0m

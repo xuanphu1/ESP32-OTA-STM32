@@ -1,0 +1,380 @@
+�&�+
+B��J���� �ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 20 2024 18:47:13[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ac9ch ( 44188) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001acc4 vaddr=3ffb0000 size=05354h ( 21332) load[0m
+[0;32mI (128) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=174e0h ( 95456) map[0m
+[0;32mI (161) esp_image: segment 3: paddr=00037508 vaddr=3ffb5354 size=02000h (  8192) load[0m
+[0;32mI (164) esp_image: segment 4: paddr=00039510 vaddr=40080000 size=0da84h ( 55940) load[0m
+[0;32mI (197) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (197) boot: Disabling RNG early entropy source...[0m
+[0;32mI (209) cpu_start: Multicore app[0m
+[0;32mI (217) cpu_start: Pro cpu start user code[0m
+[0;32mI (217) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (217) app_init: Application information:[0m
+[0;32mI (220) app_init: Project name:     esp_OTA_SMT32[0m
+[0;32mI (225) app_init: App version:      1[0m
+[0;32mI (230) app_init: Compile time:     Aug 25 2024 07:28:29[0m
+[0;32mI (236) app_init: ELF file SHA256:  f428c9ea5...[0m
+[0;32mI (241) app_init: ESP-IDF:          v5.3-dirty[0m
+[0;32mI (246) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (251) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (256) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (261) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (268) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (274) heap_init: At 3FFB8238 len 00027DC8 (159 KiB): DRAM[0m
+[0;32mI (280) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (287) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (293) heap_init: At 4008DA84 len 0001257C (73 KiB): IRAM[0m
+[0;32mI (301) spi_flash: detected chip: generic[0m
+[0;32mI (304) spi_flash: flash io: dio[0m
+[0;33mW (308) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (322) main_task: Started on CPU0[0m
+[0;32mI (332) main_task: Calling app_main()[0m
+[0;32mI (332) ROW DATA FRAME: ROW 0
+[0m
+length line in row 0: 7
+02 00 00 04 
+08 00 F2 
+[0;32mI (332) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (1542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (2142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (2742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (3342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (3942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (4542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (5142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (5742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (6342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (6942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (7542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (8142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (8742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (9342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (9942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (10542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (11142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (11742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (12342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (12942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (13542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (14142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (14742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (15342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (15942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (16542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (17142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (17742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (18342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (18942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (19542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (20142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (20742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (21342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (21942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (22542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (23142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (23742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (24342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (24942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (25542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (26142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (26742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (27342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (27942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (28542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (29142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (29742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (30342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (30942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (31542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (32142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (32742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (33342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (33942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (34542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (35142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (35742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (36342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (36942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (37542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (38142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (38742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (39342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (39942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (40542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (41142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (41742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (42342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (42942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (43542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (44142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (44742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (45342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (45942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (46542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (47142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (47742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (48342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (48942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (49542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (50142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (50742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (51342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (51942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (52542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (53142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (53742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (54342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (54942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (55542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (56142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (56742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (57342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (57942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (58542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (59142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (59742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (60342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (60942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (61542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (62142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (62742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (63342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (63942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (64542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (65142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (65742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (66342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (66942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (67542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (68142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (68742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (69342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (69942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (70542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (71142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (71742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (72342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (72942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (73542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (74142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (74742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (75342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (75942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (76542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (77142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (77742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (78342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (78942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (79542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (80142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (80742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (81342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (81942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (82542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (83142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (83742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (84342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (84942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (85542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (86142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (86742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (87342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (87942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (88542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (89142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (89742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (90342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (90942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (91542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (92142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (92742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (93342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (93942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (94542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (95142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (95742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (96342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (96942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (97542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (98142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (98742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (99342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (99942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (100542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (101142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (101742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (102342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (102942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (103542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (104142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (104742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (105342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (105942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (106542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (107142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (107742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (108342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (108942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (109542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (110142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (110742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (111342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (111942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (112542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (113142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (113742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (114342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (114942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (115542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (116142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (116742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (117342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (117942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (118542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (119142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (119742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (120342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (120942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (121542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (122142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (122742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (123342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (123942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (124542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (125142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (125742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (126342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (126942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (127542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (128142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (128742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (129342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (129942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (130542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (131142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (131742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (132342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (132942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (133542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (134142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (134742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (135342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (135942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (136542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (137142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (137742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (138342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (138942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (139542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (140142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (140742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (141342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (141942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (142542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (143142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (143742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (144342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (144942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (145542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (146142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (146742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (147342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (147942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (148542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (149142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (149742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (150342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (150942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (151542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (152142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (152742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (153342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (153942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (154542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (155142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (155742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (156342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (156942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (157542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (158142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (158742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (159342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (159942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (160542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (161142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (161742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (162342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (162942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (163542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (164142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (164742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (165342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (165942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (166542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (167142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (167742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (168342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (168942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (169542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (170142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (170742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (171342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (171942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (172542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (173142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (173742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (174342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (174942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (175542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (176142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (176742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (177342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (177942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (178542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (179142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (179742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (180342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (180942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (181542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (182142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (182742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (183342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (183942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (184542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (185142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (185742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (186342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (186942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (187542) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (188142) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (188742) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (189342) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (189942) OTA_HOST: ESP32 send the command to START successfully: [0m
+[0;32mI (190542) OTA_HOST: ESP32 send the command to START successfully: [0m

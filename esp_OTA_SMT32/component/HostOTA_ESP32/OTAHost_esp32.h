@@ -23,6 +23,7 @@
 #define POSITION_HEADER 0
 #define POSITION_DATA 4
 #define LENGTH_HEADER_COMMAND 4 
+#define LENGTH_PATH_OF_FRAME_DATA 4 
 
 
 // Enumeration for different types of OTA data
@@ -33,13 +34,6 @@ typedef enum {
     OTA_COMMAND_TYPE_END,
     OTA_COMMAND_TYPE_RESPONSE
 } OTA_Data_Type;
-
-// Enumeration for OTA operation codes
-// typedef enum {
-//     OTA_START_CODE,
-//     OTA_STOP_CODE,
-//     OTA_REQUEST_CODE
-// } OTA_Operation_Code;
 
 // Enumeration for OTA responses
 typedef enum {
@@ -71,10 +65,13 @@ typedef struct
 
 
 // Function prototypes
+/**
+ * @brief Init protocol MIN
+ * @param min_ctx MIN device descriptor
+ */
 void initMin(struct min_context *min_ctx);
 void ota_send_data(OTA_Data_Type data_type, uint8_t *operation_code, uint8_t length);
-void ota_send_start_end(OTA_Data_Type open_command_type);
-void ota_send_response(OTA_Response_Type response_type);
+void ota_send_start_end(OTA_Data_Type start_or_end_command_type,uint8_t length_one_command);
 void response_command_of_STM32_handle();
 void otaStart(char *file_hex,bool *status_kick_off);
 

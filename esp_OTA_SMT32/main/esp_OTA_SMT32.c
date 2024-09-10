@@ -44,11 +44,14 @@ void app_main(void) {
     initMin(&min_ctx);
     
     while (1) {
-
-        //ota_send_start_end(OTA_COMMAND_TYPE_END);'
+        
+        //ota_send_start_end(OTA_COMMAND_TYPE_END,7);
+        //uint8_t test[] = {0x01,0x02};
+        //min_send_frame(&min_ctx,0,test,2);
         //ota_send_response(OTA_NOT_ACKNOWLEDGE);
         otaStart(file_hex,&flag_test);
         vTaskDelay(1000 / portTICK_PERIOD_MS);
+        
     
         }
     }
