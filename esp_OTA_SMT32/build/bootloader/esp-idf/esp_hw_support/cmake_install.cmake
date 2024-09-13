@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/esp/esp_OTA_SMT32/build/bootloader/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
+  include("D:/ESP32_OTA_STM32/ESP32-OTA-STM32/esp_OTA_SMT32/build/bootloader/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/esp/esp_OTA_SMT32/build/bootloader/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
+  include("D:/ESP32_OTA_STM32/ESP32-OTA-STM32/esp_OTA_SMT32/build/bootloader/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
 endif()
 

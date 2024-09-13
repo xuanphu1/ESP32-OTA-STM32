@@ -1,4 +1,4 @@
-/* * Data converted from D:/esp/esp_OTA_SMT32/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from D:/ESP32_OTA_STM32/ESP32-OTA-STM32/esp_OTA_SMT32/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

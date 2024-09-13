@@ -1,4 +1,4 @@
-# Install script for directory: D:/esp/esp_OTA_SMT32/component/HostOTA_ESP32
+# Install script for directory: D:/ESP32_OTA_STM32/ESP32-OTA-STM32/esp_OTA_SMT32/component/HostOTA_ESP32
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

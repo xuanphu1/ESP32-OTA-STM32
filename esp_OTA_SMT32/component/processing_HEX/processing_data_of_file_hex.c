@@ -73,9 +73,9 @@ void save_data_convert_file_hex_to_Array2D(char* file_hex, uint8_t **array2D_Sav
             printf("Checksum error\n");
             break;
         }
-        if (array2D_Save_Data[row][3] == 0x00) {
-            swap_4_byte(&array2D_Save_Data[row][4], array2D_Save_Data[row][0]);  // Perform byte swapping if necessary
-        }
+        // if (array2D_Save_Data[row][3] == 0x00) {
+        //     swap_4_byte(&array2D_Save_Data[row][4], array2D_Save_Data[row][0]);  // Perform byte swapping if necessary
+        // }
         row++;
         token = strtok(NULL, "\n");  // Get the next line
     }
@@ -91,9 +91,9 @@ void save_data_convert_single_line_to_array1D(char* line, uint8_t* array1D_Save_
         printf("Checksum error in line: %s\n", line);  // Print error if checksum is invalid
     } else {
         // Perform byte swapping if the data type is 0x00
-        if (array1D_Save_Data[3] == 0x00) {
-            swap_4_byte(&array1D_Save_Data[4], array1D_Save_Data[0]);
-        }
+        // if (array1D_Save_Data[3] == 0x00) {
+        //     swap_4_byte(&array1D_Save_Data[4], array1D_Save_Data[0]);
+        // }
     }
 }
 

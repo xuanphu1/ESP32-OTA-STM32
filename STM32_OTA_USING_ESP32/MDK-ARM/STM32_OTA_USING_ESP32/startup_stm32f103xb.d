@@ -1,0 +1,1 @@
+stm32_ota_using_esp32\startup_stm32f103xb.o: startup_stm32f103xb.s

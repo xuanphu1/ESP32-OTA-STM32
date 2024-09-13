@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "cstdint": "c",
+        "response_cli.h": "c",
+        "setdata.h": "c"
+    }
+}
